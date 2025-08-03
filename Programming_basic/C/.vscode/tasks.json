@@ -1,0 +1,65 @@
+{
+"version": "2.0.0", // Task 버전 설정
+    "runner": "terminal", // 작업을 터미널에서 실행하도록 설정
+    "type": "shell", // 작업 유형을 'shell'로 지정
+    "echoCommand": false, // 실행할 명령어를 터미널에 표시하지 않음
+    "presentation": { // 터미널 출력 설정
+        "echo": false, // 실행 시 명령어 자체를 표시하지 않음
+        "clear": true, // 작업 실행 전 터미널을 깨끗하게 초기화
+        "showReuseMessage": false // 터미널 재사용 시 "이미 활성 상태" 메시지 표시하지 않음
+    },
+    "tasks": [
+        // C 빌드 작업
+        {
+            "label": "C: Build active file", // 작업 이름 (C 파일 빌드)
+            "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe", // GCC 컴파일러 경로
+            "args": [ // 명령어에 전달할 인수 목록
+                "-std=c23", // C23 표준을 적용하여 컴파일
+                "${file}", // 현재 활성화된 파일을 컴파일 대상
+                "-o", // 출력 파일 지정 옵션
+                "${fileDirname}\\build\\${fileBasenameNoExtension}.exe" // 빌드된 실행 파일 저장 경로와 이름
+            ],
+            "problemMatcher": ["$gcc"], // GCC 오류를 문제 패널에 표시
+            "group": {
+                "kind": "build", // 이 작업은 '빌드' 작업임을 나타냄
+                "isDefault": true // 기본 빌드 작업으로 설정
+            },
+            "detail": "Build active C file with GCC (C23 standard)." // 작업 설명
+        },
+ 
+        // C++ 빌드 작업
+        {
+            "label": "C++: Build active file", // 작업 이름 (C++ 파일 빌드)
+            "command": "C:\\msys64\\ucrt64\\bin\\g++.exe", // G++ 컴파일러 경로
+            "args": [ // 명령어에 전달할 인수 목록
+                "-std=c++23", // C++23 표준을 적용하여 컴파일
+                "${file}", // 현재 활성화된 파일을 컴파일 대상
+                "-o", // 출력 파일 지정 옵션
+                "${fileDirname}\\build\\${fileBasenameNoExtension}.exe" // 빌드된 실행 파일 저장 경로와 이름
+            ],
+            "problemMatcher": ["$gcc"], // G++ 오류를 문제 패널에 표시
+            "group": {
+                "kind": "build", // 이 작업은 '빌드' 작업임을 나타냄
+                "isDefault": false // 기본 빌드 작업이 아님
+            },
+            "detail": "Build active C++ file with G++ (C++23 standard)." // 작업 설명
+        },
+ 
+        // 실행 작업
+        {
+            "label": "execute", // 작업 이름 (빌드된 실행 파일 실행)
+            "command": "cmd", // 명령 프롬프트(cmd)에서 실행
+            "group": {
+                "kind": "test", // 이 작업은 '테스트' 작업으로 분류
+                "isDefault": true // 기본 테스트 작업으로 설정
+            },
+            "args": [ // 명령어에 전달할 인수 목록
+                "/C", // 명령 실행 후 종료 옵션
+                "${fileDirname}\\build\\${fileBasenameNoExtension}" // 빌드된 실행 파일 경로와 이름
+            ],
+            "presentation": {
+                "panel": "new" // 작업 실행 시마다 새 터미널 패널 생성
+            }
+        }
+    ]
+}
