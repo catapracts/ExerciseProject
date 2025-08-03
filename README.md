@@ -1,8 +1,8 @@
 # ExerciseProject
 To make freely project
 
-using language : C, C++, JAVA, Python, SQL, etc(later)
-using tool : vscode, xcode, Android Studio, Git Bash etc
+using language : C, C++, JAVA, Python, SQL, etc(later)   
+using tool : vscode, xcode, Android Studio, Git Bash etc   
 using environment
 - MAC OS : Big Sur v11.7.10
 - MacBook Pro : Retina, Early 2015
