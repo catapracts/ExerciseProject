@@ -12,9 +12,9 @@ using environment
 - Graphic : Intel Iris Graphics 6100 1536MB   
 
 2. Folder   
-Practice   
+- Practice   
 
-Programming_Basic   
+- Programming_Basic   
 
-Project   
+- Project   
 
