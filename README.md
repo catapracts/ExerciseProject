@@ -1,6 +1,7 @@
 # ExerciseProject
 To make freely project
 
+1. Setting
 using language : C, C++, JAVA, Python, SQL, etc(later)   
 using tool : vscode, xcode, Android Studio, Git Bash etc   
 using environment
@@ -8,6 +9,12 @@ using environment
 - MacBook Pro : Retina, Early 2015
 - Processor : Intel Core i5, dual core, 2.9GHz
 - Memory : 16GB, 1867MHz, DDR3
-- Graphic : Intel Iris Graphics 6100 1536MB
+- Graphic : Intel Iris Graphics 6100 1536MB   
 
-  
+2. Folder
+Practice   
+
+Programming_Basic   
+
+Project   
+
