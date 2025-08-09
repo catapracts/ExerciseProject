@@ -17,4 +17,4 @@ using environment
 - Programming_Basic   
   This folder is the collection of basic grammar for programming language
 - basic_programming   
-  This folder is the collection of code using various programming language
+  This folder is the collection of code using varied programming language
