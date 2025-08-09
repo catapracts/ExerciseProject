@@ -13,8 +13,8 @@ using environment
 
 2. Folder   
 - Practice   
-
+  This folder is the collection of code test for various language
 - Programming_Basic   
-
-- Project   
-
+  This folder is the collection of basic grammar for programming language
+- basic_programming
+  This folder is the collection of code using various programming language
