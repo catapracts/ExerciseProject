@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Calculator",
+      "request": "launch",
+      "mainClass": "Java.Calculator",
+      "projectName": "basic_code_ded9dd1b"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "lldb",
       "request": "launch",
