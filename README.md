@@ -3,7 +3,10 @@ To make freely project
 
 1. Setting   
 using language : C, C++, JAVA, Python, SQL, etc(later)   
-using tool : vscode, xcode, Android Studio, Git Bash etc   
+using tool : vscode, xcode, Android Studio, Git Bash etc
+using image source   
+https://www.youtube.com/@aviation-action/posts   
+https://www.youtube.com/@CombatAviationist/posts   
 using environment
 - MAC OS : Big Sur v11.7.10
 - MacBook Pro : Retina, Early 2015
@@ -20,5 +23,11 @@ using environment
   This folder is the collection of code using varied programming language   
 
 3. Plan   
-- Update(expected)
+- Update(later)
+  1. basic game program
+  2. simulator
+
+
+
+
 
