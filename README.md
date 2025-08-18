@@ -7,7 +7,7 @@ using tool : vscode, xcode, Android Studio, Git Bash etc
 using image source   
 "https://www.youtube.com/@aviation-action/posts"   
 "https://www.youtube.com/@CombatAviationist/posts"   
-using environment
+using environment   
 - MAC OS : Big Sur v11.7.10
 - MacBook Pro : Retina, Early 2015
 - Processor : Intel Core i5, dual core, 2.9GHz
