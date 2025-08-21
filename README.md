@@ -26,7 +26,7 @@ using environment
 - Update(later)
   1. basic game program
   2. simulator
-
+  3. Android, ios App
 
 
 
