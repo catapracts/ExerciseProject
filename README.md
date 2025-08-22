@@ -26,7 +26,9 @@ using environment
 - Update(later)
   1. basic game program
   2. simulator
-  3. Android, ios App
+  3. Android, ios App build
+  4. Quantum Computeing Basic
+  5. Assembly
 
 
 
