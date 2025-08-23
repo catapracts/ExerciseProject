@@ -2,7 +2,7 @@
 To make freely project
 
 1. Setting   
-using language : C, C++, JAVA, Python, SQL, etc(later)   
+using language : C, C++, JAVA, Python, SQL, Spring, Assembly etc(later)   
 using tool : vscode, xcode, Android Studio, Git Bash, SpringBoot, MySQL, Oracle, Postgre etc   
 using image source   
 "https://www.youtube.com/@aviation-action/posts"   
