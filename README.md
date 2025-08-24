@@ -1,5 +1,5 @@
 # ExerciseProject
-To make freely project
+To make freely project for practice programming about free topics   
 
 1. Setting   
 using language : C, C++, JAVA, Python, SQL, Spring, Assembly etc(later)   
