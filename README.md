@@ -29,6 +29,7 @@ using environment
   3. Android, ios App build
   4. Quantum Computeing Basic
   5. Assembly
+  6. Server&App
 
 
 
