@@ -42,4 +42,5 @@ struct ContentView_Previews: PreviewProvider {
  1. 맥북 리부트 후 option, command, R, P 단축키 사용 -> GPU 관련 캐시 삭제 -> 실패
  2. ~/Library/Developer/Xcode/DerivedData 해당 경로의 DerivedData를 아얘 지우기 -> Xcode에서 사용하는 모든 파생 데이터 삭제 -> 실패
  3. Shift + Command + K 단축키 사용 -> 프로젝트의 빌드 캐시를 삭제하고 Derived Data를 간접적으로 정리 -> 실패
+ 4. xcode 삭제 후 재설치 -> 실패
 */
