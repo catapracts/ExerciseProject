@@ -30,7 +30,7 @@ using environment
   4. Quantum Computeing Basic
   5. Assembly
   6. Server&App
-
+  7. Quantum Computing
 
 
 
