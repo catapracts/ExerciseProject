@@ -20,7 +20,11 @@ using environment
 - Programming_Basic   
   This folder is the collection of basic grammar for programming language
 - basic_programming   
-  This folder is the collection of code using varied programming language   
+  This folder is the collection of code using varied programming language
+- ios_Practice   
+  To make a iosApp and code using Swift   
+- Android
+  To make a Android App and code using Kotlin
 
 3. Plan   
 - Update(later)
