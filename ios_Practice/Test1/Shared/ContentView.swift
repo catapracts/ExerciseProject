@@ -73,6 +73,12 @@ struct ContentView: View {
             }
             .padding(.bottom, 30)
         }
+        /*
+         이미지 파일 업로드, 다운로드
+         서버통신
+         데이터베이스 연동
+         macos, ios 동작 확인
+         */
     }
 }
 
