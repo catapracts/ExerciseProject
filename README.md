@@ -3,7 +3,7 @@ To make freely project for practice programming about free topics
 
 1. Setting   
 using language : C, C++, JAVA, Python, SQL, Spring, Assembly, Swift, Kotlin, Arduino etc(later)   
-using tool : vscode, xcode, Android Studio, Git Bash, SpringBoot, MySQL, Oracle, Postgre, Drone etc(later)   
+using tool : vscode, xcode, Android Studio, Git Bash, SpringBoot, MySQL, Oracle, Postgre, Drone, Linux etc(later)   
 using image source   
 "https://www.youtube.com/@aviation-action/posts"   
 "https://www.youtube.com/@CombatAviationist/posts"   
@@ -20,7 +20,11 @@ using environment
 - Programming_Basic   
   This folder is the collection of basic grammar for programming language
 - basic_programming   
-  This folder is the collection of code using varied programming language   
+  This folder is the collection of code using varied programming language
+- ios_Practice   
+  To make a iosApp and code using Swift   
+- Android
+  To make a Android App and code using Kotlin
 
 3. Plan   
 - Update(later)
@@ -30,7 +34,7 @@ using environment
   4. Quantum Computeing Basic
   5. Assembly
   6. Server&App
-
+  7. Quantum Computing
 
 
 
