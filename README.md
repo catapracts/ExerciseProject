@@ -31,10 +31,9 @@ using environment
   1. basic game program
   2. simulator
   3. Android, ios App build
-  4. Quantum Computeing Basic
+  4. Quantum Computing Basic
   5. Assembly
   6. Server&App
-  7. Quantum Computing
 
 
 
