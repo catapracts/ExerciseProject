@@ -29,11 +29,11 @@ using environment
 3. Plan   
 - Update(later)
   1. basic game program
-  2. simulator
+  2. simulator program
   3. Android, ios App build(progressing)
   4. Quantum Computing Basic
-  5. Assembly
-  6. Server&App
+  5. Assembly language
+  6. Server&App Connecting
 
 
 
