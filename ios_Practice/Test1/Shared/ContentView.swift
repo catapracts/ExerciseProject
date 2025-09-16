@@ -80,6 +80,7 @@ struct ContentView: View {
          서버통신
          데이터베이스 연동
          macos, ios 동작 확인
+         Session Clustering
          */
         VStack {
             if let image = selectedImage {
