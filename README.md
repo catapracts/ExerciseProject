@@ -23,11 +23,11 @@ using environment
   This folder is the collection of code using varied programming language
 - ios_Practice   
   To make a iosApp and code using Swift   
-- Android
+- Android   
   To make a Android App and code using Kotlin
-- certificate
+- certificate   
   To make a Program for certificate test
-- Quantum_Computing
+- Quantum_Computing   
   To make a Program for Quantum Circuit with Qiskit & Python
 
 3. Plan   
