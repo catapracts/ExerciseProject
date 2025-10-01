@@ -27,6 +27,8 @@ using environment
   To make a Android App and code using Kotlin
 - certificate
   To make a Program for certificate test
+- Quantum_Computing
+  To make a Program for Quantum Circuit with Qiskit & Python
 
 3. Plan   
 - Update(later)
