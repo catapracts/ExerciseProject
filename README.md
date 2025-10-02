@@ -6,14 +6,19 @@ using language : C, C++, JAVA, Python, SQL, Spring, Assembly, Swift, Kotlin, Ard
 using tool : vscode, xcode, Android Studio, Git Bash, SpringBoot, MySQL, Oracle, Postgre, MongoDB, Drone, Linux, VMware, DBeaver etc(later)   
 using image source   
 "https://www.youtube.com/@aviation-action/posts"   
-"https://www.youtube.com/@CombatAviationist/posts"   
-using environment   
+"https://www.youtube.com/@CombatAviationist/posts"      
+using H/W environment   
 - MAC OS : Big Sur v11.7.10
 - MacBook Pro : Retina, Early 2015
 - Processor : Intel Core i5, dual core, 2.9GHz
 - Memory : 16GB, 1867MHz, DDR3
-- Graphic : Intel Iris Graphics 6100 1536MB   
+- Graphic : Intel Iris Graphics 6100 1536MB
 
+using S/W environment   
+- SQL : mysql(v8.0.28)   
+- JDK : 8   
+- 
+   
 2. Folder   
 - Practice   
   This folder is the collection of code test for various language
@@ -35,11 +40,10 @@ using environment
   1. basic game program
   2. simulator program
   3. Android, ios App build(progressing)
-  4. Quantum Computing Basic
-  5. Assembly language
-  6. Server&App Connecting
-  7. Servlet Communication
-  8. Security Basic Program
-  9. Network Program
+  4. Assembly language
+  5. Server&App Connecting
+  6. Servlet Communication
+  7. Security Basic Program
+  8. Network Program
 
 
