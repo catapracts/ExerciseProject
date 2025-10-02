@@ -6,7 +6,7 @@ using language : C, C++, JAVA, Python, SQL, Spring, Assembly, Swift, Kotlin, Ard
 using tool : vscode, xcode, Android Studio, Git Bash, SpringBoot, MySQL, Oracle, Postgre, MongoDB, Drone, Linux, VMware, DBeaver etc(later)   
 using image source   
 "https://www.youtube.com/@aviation-action/posts"   
-"https://www.youtube.com/@CombatAviationist/posts"      
+"https://www.youtube.com/@CombatAviationist/posts"         
 using H/W environment   
 - MAC OS : Big Sur v11.7.10
 - MacBook Pro : Retina, Early 2015
@@ -16,8 +16,8 @@ using H/W environment
 
 using S/W environment   
 - SQL : mysql(v8.0.28)   
-- JDK : 8   
-- 
+- JDK : 1.8   
+
    
 2. Folder   
 - Practice   
