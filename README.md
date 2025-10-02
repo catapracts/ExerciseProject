@@ -24,9 +24,9 @@ using S/W environment
 - Practice   
   This folder is the collection of code test for various language
 - Programming_Basic   
-  This folder is the collection of basic grammar for programming language
-- basic_programming   
-  This folder is the collection of code using varied programming language
+  This folder is the collection of program using varied language
+- basic_code  
+  This folder is the sum of code with basic grammar
 - ios_Practice   
   To make a iosApp and code using Swift   
 - Android   
