@@ -16,7 +16,7 @@ using H/W environment
 - Graphic : Intel Iris Graphics 6100 1536MB
 
 using S/W environment   
-- SQL : mysql(v8.0.28)   
+- SQL : mysql(v8.0.28), PostgreSQL(v18)   
 - JDK : 1.8   
    
    
