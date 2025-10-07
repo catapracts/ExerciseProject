@@ -32,7 +32,7 @@ using S/W environment
 - Android   
   To make a Android App and code using Kotlin
 - certificate   
-  To make a Program for certificate test
+  To make a Program for certificate test using C, JAVA, SQL, Python
 - Quantum_Computing   
   To make a Program for Quantum Circuit with Qiskit & Python
 
