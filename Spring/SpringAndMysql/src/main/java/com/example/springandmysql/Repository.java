@@ -1,5 +1,8 @@
 package com.example.springandmysql;
 
-public interface Repository {
+import com.example.springandmysql.EntityFile;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface Repository extends JpaRepository<EntityFile, Long> {
 
 }
