@@ -1,6 +1,7 @@
 package com.example.springandmysql.Security;
 
 import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.context.annotation.Bean;
@@ -13,17 +14,12 @@ public class UserConfig {
 
 	@Bean
 	public UserDetailsService users() {
-		UserDetails user = User.builder()
-				.username("user")
-				.password(passwordEncoder().encode("password"))
-				.roles("USER")
-				.build();
+		UserFile user = new UserFile("user", passwordEncoder().encode("password"));
 		return new InMemoryUserDetailsManager(user);
-				
 	}
 	
 	@Bean
 	public PasswordEncoder passwordEncoder() {
-		return new BCryotPasswordEncoder();
+		return new BCryptPasswordEncoder();
 	}
 }

@@ -17,10 +17,10 @@ public class WebSecurityConfig {
 		http
 			.csrf().disable()
 			.authorizeHttpRequests((authz) -> authz
-					.requestMatchers("/public/**").permitAll()
+					.antMatchers("/public/**").permitAll()
 					.anyRequest().authenticated()
 			)
-			.formerLogin(Customizer.withDefaults());
+			.formLogin();
 		return http.build();
 	}
 	

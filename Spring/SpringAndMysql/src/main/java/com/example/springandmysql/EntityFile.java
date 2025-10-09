@@ -19,7 +19,11 @@ public class EntityFile {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)  // ID 자동 증가
     private Long id;
-
     private String username;
     private String email;
+    private String password;
+    
+//    public void setUsername(String username) {
+//    	this.username = username;
+//    }
 }
