@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.springandmysql.DataForm.LoginRequest;
+import com.example.springandmysql.JWT.JwtResponse;
 import com.example.springandmysql.JWT.JwtTokenUtil;
 
 @RestController
