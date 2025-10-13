@@ -18,7 +18,10 @@ using H/W environment
 using S/W environment   
 - SQL : mysql(v8.0.28), PostgreSQL(v18)   
 - JDK : 1.8   
-   
+- Node.js : v22.20.0
+- Python : v2.7.16
+- react : v19.2.0
+- react-scripts : v5.0.1
    
 2. Folder   
 - Practice   
@@ -35,6 +38,10 @@ using S/W environment
   To make a Program for certificate test using C, JAVA, SQL, Python
 - Quantum_Computing   
   To make a Program for Quantum Circuit with Qiskit & Python
+- Front_End
+  To make a Program for Front_End with React, javascript, HTML, CSS etc
+- Back_End
+  To make a Program for Back_End with Spring, C, JAVA, C++ etc
 
 3. Plan   
 - Update(later)
@@ -46,5 +53,3 @@ using S/W environment
   6. Servlet Communication
   7. Security Basic Program
   8. Network Program
-
-
