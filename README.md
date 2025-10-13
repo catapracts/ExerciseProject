@@ -38,9 +38,9 @@ using S/W environment
   To make a Program for certificate test using C, JAVA, SQL, Python
 - Quantum_Computing   
   To make a Program for Quantum Circuit with Qiskit & Python
-- Front_End
+- Front_End   
   To make a Program for Front_End with React, javascript, HTML, CSS etc
-- Back_End
+- Back_End   
   To make a Program for Back_End with Spring, C, JAVA, C++ etc
 
 3. Plan   
