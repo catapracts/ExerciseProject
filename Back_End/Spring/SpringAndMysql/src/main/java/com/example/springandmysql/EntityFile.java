@@ -9,7 +9,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 
-
 @Entity
 @Getter
 @Setter
@@ -23,7 +22,4 @@ public class EntityFile {
     private String email;
     private String password;
     
-//    public void setUsername(String username) {
-//    	this.username = username;
-//    }
 }

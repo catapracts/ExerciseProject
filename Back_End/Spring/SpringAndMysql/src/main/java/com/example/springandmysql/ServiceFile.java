@@ -1,8 +1,5 @@
 package com.example.springandmysql;
 
-import com.example.springandmysql.EntityFile;
-import com.example.springandmysql.Repository;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -29,6 +26,4 @@ public class ServiceFile {
 	public EntityFile saveEntity(EntityFile file) {
 		return repository.save(file);
 	}
-	
-	
 }

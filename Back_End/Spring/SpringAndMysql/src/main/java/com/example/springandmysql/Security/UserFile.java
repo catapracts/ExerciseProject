@@ -1,15 +1,9 @@
 package com.example.springandmysql.Security;
 
-import org.springframework.context.annotation.Bean;
 import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.provisioning.InMemoryUserDetailsManager;
-
 import lombok.Getter;
 import lombok.Setter;
-
 import java.util.Collection;
 import java.util.Collections;
 

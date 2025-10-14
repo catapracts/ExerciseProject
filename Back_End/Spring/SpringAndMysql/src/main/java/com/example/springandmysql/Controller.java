@@ -6,13 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-
-import javax.swing.text.html.parser.Entity;
 import javax.validation.Valid;
-
 import org.springframework.beans.factory.annotation.Autowired;
-import com.example.springandmysql.EntityFile;
-import com.example.springandmysql.ServiceFile;
 
 @RestController
 public class Controller {
@@ -58,6 +53,5 @@ public class Controller {
 		service.saveEntity(ent);
 		return "redirect:/All";
 	}
-	
 	
 }

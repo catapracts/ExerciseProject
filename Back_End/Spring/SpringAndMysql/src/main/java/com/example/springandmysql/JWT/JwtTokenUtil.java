@@ -3,7 +3,6 @@ package com.example.springandmysql.JWT;
 import java.nio.charset.StandardCharsets;
 import java.security.Key;
 import java.util.Date;
-
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
