@@ -16,6 +16,8 @@ using H/W environment
 - Graphic : Intel Iris Graphics 6100 1536MB
 
 using S/W environment   
+- SpringFramework.Boot : v2.6.3
+- SpringDependency-Management : v1.1.4
 - SQL : mysql(v8.0.28), PostgreSQL(v18)   
 - JDK : 1.8   
 - Node.js : v22.20.0
