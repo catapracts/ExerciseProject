@@ -5,7 +5,7 @@ def half_adder(n):
   circuit = QuantumCircuit(qr)
   circuit.cx(qr[0], qr[2])
   circuit.cx(qr[1], qr[2])
-  circuit.ccx(qr[0], qr[1], qr[2])
+  circuit.ccx(qr[0], qr[1], qr[3])
   circuit.name = 'half_adder'
   return circuit
 
