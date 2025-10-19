@@ -10,13 +10,13 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class UserConfig {
 
-	@Bean
+	
 	public UserDetailsService users() {
 		UserFile user = new UserFile("user", passwordEncoder().encode("password"));
 		return new InMemoryUserDetailsManager(user);
 	}
 	
-	@Bean
+	
 	public PasswordEncoder passwordEncoder() {
 		return new BCryptPasswordEncoder();
 	}
