@@ -2,31 +2,45 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
+import axios from '../axios';
 
 function Login() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
-  const [errorMessage, setErrorMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState(null);
   const [role, setRole] = useState('user');  // 기본 role은 일반 사용자
   const navigate = useNavigate();
   const { login } = useAuth();
 
-  const handleLogin = (e) => {
+  const handleLogin = async(e) => {
     const userData = { username : 'admin' }
     e.preventDefault();
 
-    // 간단한 로그인 체크 (role에 따라 다르게 처리)
-    if (username === 'admin' && password === '1234') {
-      const userData = { username, role: 'admin' };
+    try {
+      const response = await axios.post('/auth/login', {
+        username,
+        password,
+      });
+
+      localStorage.setItem('jwToken', response.data.token);
+      alert('Login successful!');
       login(userData);
       navigate('/home');
-    } else if (username === 'user' && password === '1234') {
-      const userData = { username, role: 'user' };
-      login(userData);
-      navigate('/home');
-    } else {
-      setErrorMessage('❌ 로그인 실패: 아이디 또는 비밀번호가 틀렸습니다.');
+    } catch (errorMessage) {
+      setErrorMessage('Invalid credentials')
     }
+    // // 간단한 로그인 체크 (role에 따라 다르게 처리)
+    // if (username === 'admin' && password === '1234') {
+    //   const userData = { username, role: 'admin' };
+    //   login(userData);
+    //   navigate('/home');
+    // } else if (username === 'user' && password === '1234') {
+    //   const userData = { username, role: 'user' };
+    //   login(userData);
+    //   navigate('/home');
+    // } else {
+    //   setErrorMessage('❌ 로그인 실패: 아이디 또는 비밀번호가 틀렸습니다.');
+    // }
   };
 
   return (
