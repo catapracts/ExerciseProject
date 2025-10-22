@@ -25,13 +25,13 @@ public class Controller {
 		return "index";
 	}
 	
-	@GetMapping("/All")
+	@GetMapping("/getAll")
 	public String getAllEntities(Model model) {
 		model.addAttribute("Entities", service.findAllEntity());
 		return "entityList";
 	}
 	
-	@GetMapping("/One")
+	@GetMapping("/getOne")
 	public String createEntityForm(Model model) {
 		model.addAttribute("Entity", new EntityFile());
 		return "createEntity";
@@ -52,6 +52,12 @@ public class Controller {
 		ent.setPassword(dto.getPassword());
 		service.saveEntity(ent);
 		return "redirect:/All";
+	}
+	
+	@PostMapping("/delete")
+	public String deleteEntity(Long id) {
+		service.deleteData(id);
+		return "redirect:/";
 	}
 	
 }

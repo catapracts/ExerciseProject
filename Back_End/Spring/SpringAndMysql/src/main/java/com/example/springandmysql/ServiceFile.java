@@ -26,4 +26,8 @@ public class ServiceFile {
 	public EntityFile saveEntity(EntityFile file) {
 		return repository.save(file);
 	}
+	
+	void deleteData(Long id) {
+		repository.deleteById(id);
+	}
 }
