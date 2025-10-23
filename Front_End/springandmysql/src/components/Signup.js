@@ -22,6 +22,10 @@ export default function Signup() {
     }
   };
 
+  const handleBack = () => {
+    navigate("/");
+  }
+
   return (
     <div>
       <h2>회원가입</h2>
@@ -29,7 +33,7 @@ export default function Signup() {
       <input value={password} onChange={(e) => setPassword(e.target.value)} placeholder="비밀번호" type="password" /> <br /><br />
       <br /><br />
       <button onClick={handleSignup}>가입하기</button> <br /><br />
-      <button onClick={navigate("/")}>뒤로가기</button>
+      <button onClick={handleBack}>뒤로가기</button>
     </div>
   );
 }

@@ -43,6 +43,10 @@ function Login() {
     // }
   };
 
+  const handleSignup = () => {
+    navigate('/new');
+  }
+
   return (
     <div style={{ padding: '20px' }}>
       <h2>로그인 페이지</h2>
@@ -60,7 +64,7 @@ function Login() {
           onChange={(e) => setPassword(e.target.value)}
         /><br /><br />
         <button type="submit">로그인</button>
-        <button type="submit" onClick={navigate("/new")}>회원가입</button>
+        <button type="submit" onClick={handleSignup}>회원가입</button>
       </form>
 
       {/* 에러 메시지 스타일링 */}
