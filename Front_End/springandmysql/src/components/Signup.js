@@ -10,10 +10,10 @@ export default function Signup() {
   const navigate = useNavigate();
 
   const handleSignup = async () => {
-    const res = await fetch("http://localhost:8000/signup", {
+    const res = await fetch("http://localhost:8000/auth/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ email, password }),
+      body: JSON.stringify({ username, password }),
     });
     const data = await res.json();
     if (res.ok) {

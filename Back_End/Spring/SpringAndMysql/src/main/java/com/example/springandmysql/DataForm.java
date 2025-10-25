@@ -26,14 +26,14 @@ public class DataForm {
 	private String password;
 	
 	@Data
-	public class LoginRequest {
+	public static class LoginRequest {
 	    private String username;
 	    private String password;
 	}
 
 	@Data
 	@AllArgsConstructor
-	public class JwtResponse {
+	public static class JwtResponse {
 	    private String token;
 	}
 	
