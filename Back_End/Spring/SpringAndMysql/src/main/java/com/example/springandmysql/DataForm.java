@@ -16,7 +16,7 @@ public class DataForm {
 	private Long id;
 
 	@NotBlank(message = "Please enter your name")
-	private String name;
+	private String username;
 	
 	@NotBlank(message = "Please enter your email")
 	@Email(message = "This isn't correct email form")

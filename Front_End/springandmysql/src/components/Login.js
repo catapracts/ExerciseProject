@@ -13,8 +13,8 @@ function Login() {
   const { login } = useAuth();
 
   const handleLogin = async(e) => {
-    const userData = { username : 'admin' }
     e.preventDefault();
+    const userData = { username : 'admin' }
 
     try {
       const response = await axios.post('/auth/login', {
@@ -43,7 +43,8 @@ function Login() {
     // }
   };
 
-  const handleSignup = () => {
+  const handleSignup = (e) => {
+    e.preventDefault();
     navigate('/new');
   }
 
@@ -64,7 +65,7 @@ function Login() {
           onChange={(e) => setPassword(e.target.value)}
         /><br /><br />
         <button type="submit">로그인</button>
-        <button onClick={handleSignup}>회원가입</button>
+        <button type="button" onClick={handleSignup}>회원가입</button>
       </form>
 
       {/* 에러 메시지 스타일링 */}

@@ -47,7 +47,7 @@ public class Controller {
 		}
 		
 		EntityFile ent = new EntityFile();
-		ent.setUsername(dto.getName());
+		ent.setUsername(dto.getUsername());
 		ent.setEmail(dto.getEmail());
 		ent.setPassword(dto.getPassword());
 		service.saveEntity(ent);
