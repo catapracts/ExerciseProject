@@ -3,7 +3,7 @@ To make freely project for practice programming about free topics
 
 1. Setting   
 using language : C, C++, JAVA, Python, SQL, Spring, Assembly, Swift, Kotlin, Arduino, javascript, React etc(later)   
-using tool : vscode, xcode, Android Studio, Git Bash, SpringBoot, MySQL, Oracle, Postgre, Drone, Linux, VMware, DBeaver, Colab etc(later)   
+using tool : vscode, xcode, Android Studio, Git, SpringBoot, MySQL, Oracle, Postgre, Drone, Linux, VMware, DBeaver, Colab etc(later)   
 using image source   
 "https://www.youtube.com/@aviation-action/posts"   
 "https://www.youtube.com/@CombatAviationist/posts"
@@ -29,7 +29,7 @@ using S/W environment
 - Practice   
   This folder is the collection of code test for various language
 - Programming_Basic   
-  This folder is the collection of program using varied language
+  This folder is the collection of program using several language
 - basic_code  
   This folder is the sum of code with basic grammar
 - ios_Practice   
