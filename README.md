@@ -46,6 +46,8 @@ using S/W environment
   To make a Program for Back_End with Spring, C, JAVA, C++ etc   
 - Test
   To make a Program using with various language to make a diverse Program
+- Debug Log
+  To write a Debugging Log and solve the problem   
 
 3. Plan   
 - Update(later)
