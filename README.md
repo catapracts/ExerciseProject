@@ -44,9 +44,9 @@ using S/W environment
   To make a Program for Front_End with React, javascript, HTML, CSS etc
 - Back_End   
   To make a Program for Back_End with Spring, C, JAVA, C++ etc   
-- Test
-  To make a Program using with various language to make a diverse Program
-- Debug Log
+- Test   
+  To make a Program using with various language to make a diverse Program   
+- Debug Log(Later)   
   To write a Debugging Log and solve the problem   
 
 3. Plan   
