@@ -1,0 +1,59 @@
+예를 들어서 이런 코드를 작성해보세요:
+
+"""
+// stackoverflow.c
+#include <stdio.h>
+
+#if __GNUC__
+// GCC
+#define NOINLINE(rett) rett __attribute__((noinline))
+#else
+// MSVC
+#define NOINLINE(rett) __declspec(noinline) rett
+#endif
+
+NOINLINE(int) f1();
+NOINLINE(int) f2(); 
+
+NOINLINE(int) f1() {
+    return f2() - 20;
+}
+
+NOINLINE(int) f2() {
+    return f1() + 20;
+}
+
+int main() {
+    int x = f1();
+    printf("%d", x);
+    return 0;
+}
+"""
+
+또는 이런걸 시도해보세요:
+
+"""
+#include <stdio.h>
+
+#if __GNUC__
+// GCC
+#define NOINLINE(rett) rett __attribute__((noinline))
+#else
+// MSVC
+#define NOINLINE(rett) __declspec(noinline) rett
+#endif
+
+NOINLINE(void) f1(int* p) {
+    for (int i = p[-22] | 99; i != 0; i++)
+    {
+        p[i-80860] = p[505+i];
+    }
+}
+
+int main() {
+    int arr[10];
+    f1(arr);
+    printf("%d", arr[9]);
+    return 0;
+}
+"""
