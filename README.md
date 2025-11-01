@@ -48,7 +48,7 @@ using S/W environment
   To make a Program using with various language to make a diverse Program   
 - Debug Log(Later)   
   To write a Debugging Log and solve the problem
-- SQL(later)
+- SQL(later)   
   To record a SQL query using in the program   
 
 3. Plan   
