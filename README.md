@@ -36,7 +36,7 @@ using S/W environment
   To make a iosApp and code using Swift   
 - Android   
   To make a Android App and code using Kotlin
-- certificate   
+- certificate(finished)   
   To make a Program for certificate test using C, JAVA, SQL, Python
 - Quantum_Computing   
   To make a Program for Quantum Circuit with Qiskit & Python
