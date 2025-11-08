@@ -1,21 +1,21 @@
 # ExerciseProject
 To make freely project for practice programming about free topics   
 
-##1. Setting   
+## 1. Setting   
 using language : C, C++, JAVA, Python, SQL, Spring, Assembly, Swift, Kotlin, javascript, React etc(later)   
 using tool : vscode, xcode, Android Studio, Git, SpringBoot, MySQL, Postgre, Drone, Linux, VMware, DBeaver, Colab etc(later)   
 using image source   
 "https://www.youtube.com/@aviation-action/posts"   
 "https://www.youtube.com/@CombatAviationist/posts"
  
-##using H/W environment   
+## using H/W environment   
 - MAC OS : Big Sur v11.7.10
 - MacBook Pro : Retina, Early 2015
 - Processor : Intel Core i5, dual core, 2.9GHz
 - Memory : 16GB, 1867MHz, DDR3
 - Graphic : Intel Iris Graphics 6100 1536MB
 
-##using S/W environment   
+## using S/W environment   
 - SpringFramework.Boot : v2.6.3
 - SpringDependency-Management : v1.1.4
 - SQL : mysql(v8.0.28), PostgreSQL(v18)   
@@ -25,7 +25,7 @@ using image source
 - react : v19.2.0
 - react-scripts : v5.0.1
    
-##2. Folder   
+## 2. Folder   
 - Practice   
   This folder is the collection of code test for various language
 - Programming_Basic   
@@ -51,7 +51,7 @@ using image source
 - SQL(later)   
   To record a SQL query using in the program   
 
-##3. Plan   
+## 3. Plan   
 - Update(later)
   1. basic game program
   2. simulator program
