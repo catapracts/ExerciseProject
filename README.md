@@ -47,7 +47,7 @@ using image source
 - Test   
   To make a Program using with various language to make a diverse Program   
 - Debug Log(Later)   
-  To write a Debugging Log and solve the problem
+  To write a Debugging Log and solve the problem with Programming
 - SQL(later)   
   To record a SQL query using in the program   
 
