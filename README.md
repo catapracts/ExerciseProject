@@ -2,7 +2,7 @@
 To make freely project for practice programming about free topics   
 
 ## 1. Setting   
-using language : C, C++, JAVA, Python, SQL, Spring, Assembly, Swift, Kotlin, javascript, React etc(later)   
+using language : C, C++, C#, JAVA, Python, SQL, Spring, Assembly, Swift, Kotlin, javascript, React etc(later)   
 using tool : vscode, xcode, Android Studio, Git, SpringBoot, MySQL, Postgre, Linux, Colab etc(later)   
 using image source   
 "https://www.youtube.com/@aviation-action/posts"   
